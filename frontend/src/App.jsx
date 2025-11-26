@@ -1,16 +1,10 @@
+import LoginForm from './components/LoginForm';
+
 function App() {
   return (
-    <section>
-      <form method="post">
-        <label>
-          <input type="text" placeholder='User'/>
-        </label>
-        <br />
-        <label>
-          <input type="password" placeholder='Password'/>
-        </label>
-      </form>
-    </section>
+    <main>
+      <LoginForm />
+    </main>
   );
 }
 
